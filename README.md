@@ -14,4 +14,11 @@ retry(foo, function (err, result) {
         console.log(result);
     }
 });
+
+retry(foo).on('error', function (err) {
+    console.error(err);
+}).on('done', function (result) {
+    console.log(result);
+});
+
 ```
