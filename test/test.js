@@ -21,8 +21,15 @@ describe('events', function () {
             assert.equal(3, result);
         });
     });
+    it('should succeed after executed five times', function () {
+        retry(makefn(5), 5).on('error', function (err) {
+            assert.fail();
+        }).on('done', function (result) {
+            assert.equal(5, result);
+        });
+    });
     it('should fail after executed three times', function () {
-        retry(makefn(4)).on('error', function (err) {
+        retry(makefn(5)).on('error', function (err) {
             assert.notEqual(null, err);
         }).on('done', function (result) {
             assert.fail();
