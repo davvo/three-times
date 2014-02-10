@@ -20,6 +20,7 @@ retry(foo, function (err, result) {
 ```
 
 You can override the default number of retries (3)
+
 ```javascript
 // Try up to 10 times
 retry(foo, function (err, result) {
