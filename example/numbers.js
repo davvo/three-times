@@ -1,4 +1,4 @@
-var retry = require('../lib/index');
+var retry = require('three-times');
 
 function rollDice() {
     return 1 + Math.floor(6 * Math.random());
@@ -24,4 +24,4 @@ retry(gamble, function (err, res) {
     } else {
         console.log(res);
     }
-}, 5);
+});
