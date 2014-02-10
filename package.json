@@ -1,0 +1,19 @@
+{
+  "name": "three-times",
+  "version": "0.1.2",
+  "description": "Retry a function call",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "try",
+    "retry",
+    "times"
+  ],
+  "author": "David Ershag",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  }
+}
