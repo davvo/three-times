@@ -12,7 +12,7 @@ function gamble(done) {
     } else if (dice1 === 4 && dice2 === 5) {
         done(null, 'Jesse James!')
     } else if (dice1 === 6 && dice2 === 6) {
-        done(null, 'Boxcars!');
+        done(null, 'Midnight!');
     } else {
         done(new Error());
     }
