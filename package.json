@@ -1,6 +1,7 @@
 {
   "name": "three-times",
   "version": "0.1.2",
+  "repository": "https://github.com/davvo/three-times",
   "description": "Retry a function call",
   "main": "index.js",
   "scripts": {

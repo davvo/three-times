@@ -1,5 +1,5 @@
 var assert = require('assert'),
-    retry = require('./index');
+    retry = require('../lib/index');
 
         it('should succeed after executed once', function () {
             var times = 0;
