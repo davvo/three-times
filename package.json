@@ -3,7 +3,7 @@
   "version": "0.3.4",
   "repository": "https://github.com/davvo/three-times",
   "description": "Retry a function call",
-  "main": "./lib/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"
   },
