@@ -1,5 +1,5 @@
 var assert = require('assert'),
-    retry = require('../lib/retry');
+    retry = require('../lib/three-times');
 
 function makefn(count) {
     var times = 0;
